@@ -1175,9 +1175,9 @@ rabbitmq hard nofile 1234
           'include'  => {
             'src' => false,
           },
-          key        => {
-            'id'      => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
-            'source'  => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+          'key'      => {
+            'id'     => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
+            'source' => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
           }
         ) }
       end
@@ -1188,15 +1188,15 @@ rabbitmq hard nofile 1234
       describe 'it sets up an apt::source and pin' do
 
         it { should contain_apt__source('rabbitmq').with(
-          'location'    => 'http://www.rabbitmq.com/debian/',
-          'release'     => 'testing',
-          'repos'       => 'main',
+          'location' => 'http://www.rabbitmq.com/debian/',
+          'release'  => 'testing',
+          'repos'    => 'main',
           'include'  => {
             'src' => false,
           },
-          key        => {
-            'id'      => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
-            'source'  => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+          'key'      => {
+            'id'     => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
+            'source' => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
           }
         ) }
 
