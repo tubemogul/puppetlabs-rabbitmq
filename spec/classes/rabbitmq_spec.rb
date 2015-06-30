@@ -1176,8 +1176,9 @@ rabbitmq hard nofile 1234
             'src' => false,
           },
           'key'      => {
-            'id'     => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
-            'source' => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+            'id'      => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
+            'source'  => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+            'content' => :undef,
           }
         ) }
       end
@@ -1195,8 +1196,9 @@ rabbitmq hard nofile 1234
             'src' => false,
           },
           'key'      => {
-            'id'     => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
-            'source' => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+            'id'      => 'F78372A06FF50C80464FC1B4F7B8CEA6056E8E56',
+            'source'  => 'http://www.rabbitmq.com/rabbitmq-signing-key-public.asc',
+            'content' => :undef,
           }
         ) }
 
